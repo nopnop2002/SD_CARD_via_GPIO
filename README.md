@@ -10,9 +10,7 @@ http://blogsmayan.blogspot.jp/p/interfacing-sd-card.html
 
 # Wirering for External SD CARD module   
 
-Using SPI to transfer   
-
-|SD CARD|Rpi/OPI|
+|SD CARD||Rpi/OPI|
 |:-:|:-:|:-:|
 |GND|--|GND|
 |VCC|--|5V|
