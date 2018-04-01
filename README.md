@@ -44,7 +44,7 @@ You must to chack mmcbb_gpio.c
 
 # How to use   
 
-*Using bcm2835 Library(RPi Only)*   
+**Using bcm2835 Library(RPi Only)**   
 This is original Library.  
 Thank you for Rajiv.   
 
@@ -53,7 +53,7 @@ sudo ./RpiSDCard
 
 
 
-*Using wiringPi Library(RPi/OPi)*   
+**Using wiringPi Library(RPi/OPi)**   
 
 cc -o RpiSDCard_gpio main.c ff.c mmcbb_gpio.c -lwiringPi   
 sudo ./RpiSDCard_gpio   
