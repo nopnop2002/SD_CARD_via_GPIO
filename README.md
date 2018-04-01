@@ -10,6 +10,8 @@ http://blogsmayan.blogspot.jp/p/interfacing-sd-card.html
 
 # Wirering for External SD CARD module   
 
+Using SPI to transfer   
+
 |SD CARD|Rpi/OPI|
 |:-:|:-:|:-:|
 |GND|--|GND|
@@ -49,6 +51,6 @@ cc -o RpiSDCard main.c ff.c mmcbb.c -lbcm2835
 sudo ./RpiSDCard   
 
 Using wiringPi Library(RPi/OPi)   
-cc -o RpiSDCard_gpio main.c ff.c mmcbb_gpio.c -lwiringPi
+cc -o RpiSDCard_gpio main.c ff.c mmcbb_gpio.c -lwiringPi   
 sudo ./RpiSDCard_gpio   
 
