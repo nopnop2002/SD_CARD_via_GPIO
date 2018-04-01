@@ -42,6 +42,12 @@ You must to chack mmcbb_gpio.c
 
 ---
 
+# SD CARD format   
+
+You have to format sd card with FAT32.   
+
+---
+
 # How to use   
 
 **Using bcm2835 Library(RPi Only)**   
