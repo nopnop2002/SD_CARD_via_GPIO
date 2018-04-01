@@ -46,7 +46,7 @@ You must to chack mmcbb_gpio.c
 
 **Using bcm2835 Library(RPi Only)**   
 This is original Library.  
-Thank you for Rajiv.   
+Thank you Rajiv for your good code.   
 
 cc -o RpiSDCard main.c ff.c mmcbb.c -lbcm2835   
 sudo ./RpiSDCard   
