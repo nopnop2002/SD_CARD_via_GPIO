@@ -61,7 +61,7 @@ sudo ./RpiSDCard_gpio
 
 
 ```
-sudo ./RpiSDCard_gpio
+$ sudo ./RpiSDCard_gpio
 
 Open an existing file (HELLO.TXT).
 f_open rc=0
