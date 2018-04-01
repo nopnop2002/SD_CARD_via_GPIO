@@ -1,6 +1,6 @@
 # SD_CARD_via_GPIO
 External SD CARD I/O Library for RaspberryPi/OrangePi.   
-You can access external SD CARD using this.   
+You can access external SD CARD using GPIO.   
 
 I ported from here.   
 http://blogsmayan.blogspot.jp/p/interfacing-sd-card.html   
