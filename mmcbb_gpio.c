@@ -57,9 +57,9 @@
 #define 	MOSI		12
 #define 	MISO		13
 #define 	CLK		14
-//use CE0 
+//GPIO10 as CE
 #define 	CE		10
-//use CE1
+//GPIO11 as CE
 //#define 	CE		11
 
 

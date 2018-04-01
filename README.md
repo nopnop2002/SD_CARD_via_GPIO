@@ -34,10 +34,10 @@ CE1 and GPIO10.
 You must to chack mmcbb_gpio.c   
 
 ```
-//use CE0
-#define         CE              10
-//use CE1
-//#define       CE              11
+//GPIO10 as CE
+#define 	CE		10
+//GPIO11 as CE
+//#define 	CE		11
 ```
 
 ---
