@@ -58,3 +58,51 @@ sudo ./RpiSDCard
 cc -o RpiSDCard_gpio main.c ff.c mmcbb_gpio.c -lwiringPi   
 sudo ./RpiSDCard_gpio   
 
+
+
+```
+sudo ./RpiSDCard_gpio
+
+Open an existing file (HELLO.TXT).
+f_open rc=0
+
+Type the file content.
+Hello world!
+Goodbye world.
+121
+253
+199
+
+Close the file.
+
+Create a new file (HELLO.TXT).
+
+Write a text data. (Hello world!)
+14 bytes written.
+16 bytes written.
+1 bytes written.
+1 bytes written.
+1 bytes written.
+2 bytes written.
+1 bytes written.
+1 bytes written.
+1 bytes written.
+2 bytes written.
+1 bytes written.
+1 bytes written.
+1 bytes written.
+2 bytes written.
+
+Close the file.
+
+Open root directory.
+
+Directory listing...
+   <dir>  SYSTEM~1
+      88  TEST.TXT
+      45  HELLO.TXT
+
+Test completed.
+```
+
+
