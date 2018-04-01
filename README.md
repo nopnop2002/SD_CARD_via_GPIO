@@ -17,17 +17,19 @@ http://blogsmayan.blogspot.jp/p/interfacing-sd-card.html
 |MISO|--|Pin#21(SPI MISO)|
 |MOSI|--|Pin#19(SPI MOSI)|
 |SCK|--|Pin#23(SPI SCLK)|
-|CS|--|Pin#24(SPI CE0)(**)|
-|CS|--|Pin#26(SPI CE1)(**)|
+|CS|--|Pin#24(SPI CE0)(*)|
+|CS|--|Pin#26(SPI CE1)(*)|
 
-Note:   
+\*Note:   
 Rpi have 2 SPI.   
-CE0 and Pin#24.   
-CE1 and Pin#26.   
+CE0 and GPIO10.   
+CE1 and GPIO11.   
 
-Opi have only 1 SPI.   
-OPi-PC have CE0 and Pin#24.   
-OPi ZERO have CE1 and Pin#24.   
+Opi-PC have only 1 SPI.   
+CE0 and GPIO10.   
+
+Opi-ZERO have only 1 SPI.   
+CE1 and GPIO10.   
 
 You must to chack mmcbb_gpio.c   
 
